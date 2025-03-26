@@ -1,0 +1,5 @@
+conda create -p venv python==3.12   
+// present directory
+
+conda create -n venv python==3.12
+// new directory
