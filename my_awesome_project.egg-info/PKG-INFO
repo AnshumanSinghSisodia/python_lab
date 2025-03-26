@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: my-awesome-project
+Version: 2020.0.0
+Author: Anshuman Singh Sisodia
+Author-email: Anshuman <anshuman@example.com>
+Project-URL: Homepage, https://example.com
+Project-URL: Documentation, https://readthedocs.org
+Project-URL: Repository, https://github.com/me/spam.git
+Requires-Python: >=3.8
+Requires-Dist: httpx
+Requires-Dist: gidgethub[httpx]>4.0.0
+Requires-Dist: django>2.1; os_name != "nt"
+Requires-Dist: django>2.0; os_name == "nt"
+Provides-Extra: gui
+Requires-Dist: PyQt5; extra == "gui"
+Provides-Extra: cli
+Requires-Dist: rich; extra == "cli"
+Requires-Dist: click; extra == "cli"
+Dynamic: author
