@@ -1,3 +1,2 @@
 langchain
 numpy
--e .
